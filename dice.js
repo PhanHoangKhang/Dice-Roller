@@ -14,7 +14,7 @@ function rollDice() {
     }
     
     let sum = 0;
-    for (value of values) {
+    for (let value of values) {
         sum+=value;
     }
     if (numDice.value <=20) {
