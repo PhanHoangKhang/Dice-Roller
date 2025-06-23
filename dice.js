@@ -24,6 +24,7 @@ function rollDice() {
     }
     else {
         RollDice.textContent = `You can only roll a maximum of 20 dice at a time!`;
+        sumDice.textContent= ``;
         imageDice.innerHTML = ``;
     }
 }
