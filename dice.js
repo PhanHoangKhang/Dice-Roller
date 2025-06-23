@@ -19,12 +19,12 @@ function rollDice() {
     }
     if (numDice.value <=20) {
         RollDice.textContent = `Dice rolled: ${values.join(', ')}`;
-        sumDice.textContent= `Total Score: ${sum}`;
+        sumDice.textContent = `Total Score: ${sum}`;
         imageDice.innerHTML = images.join('');
     }
     else {
         RollDice.textContent = `You can only roll a maximum of 20 dice at a time!`;
-        sumDice.textContent= ``;
+        sumDice.textContent = ``;
         imageDice.innerHTML = ``;
     }
 }
@@ -35,6 +35,6 @@ function reset() {
     let sum = 0;
 
     RollDice.textContent = ``;
-    sumDice.textContent= ``;
+    sumDice.textContent = ``;
     imageDice.innerHTML = ``;
 }
